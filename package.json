@@ -1,5 +1,5 @@
 {
-  "name": "n8n-nodes-<...>",
+  "name": "n8n-custom-nodes",
   "version": "0.1.0",
   "description": "",
   "keywords": [
@@ -9,7 +9,7 @@
   "homepage": "",
   "author": {
     "name": "",
-    "email": ""
+    "email": "ishamletenoux@gmail.com"
   },
   "repository": {
     "type": "git",
@@ -31,11 +31,14 @@
     "n8nNodesApiVersion": 1,
     "credentials": [
       "dist/credentials/ExampleCredentialsApi.credentials.js",
-      "dist/credentials/HttpBinApi.credentials.js"
+      "dist/credentials/HttpBinApi.credentials.js",
+      "dist/credentials/HelloTelegramApi.credentials.js"
     ],
     "nodes": [
       "dist/nodes/ExampleNode/ExampleNode.node.js",
-      "dist/nodes/HttpBin/HttpBin.node.js"
+      "dist/nodes/HttpBin/HttpBin.node.js",
+      "dist/nodes/PlusOne/PlusOne.node.js",
+      "dist/nodes/HelloTelegram/HelloTelegram.node.js"
     ]
   },
   "devDependencies": {
